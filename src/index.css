@@ -1,0 +1,291 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin-bottom: 60px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+.title {
+  padding: 15px;
+}
+
+.input {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.add {
+  float: right;
+  margin-top: -68px;
+}
+
+.addnewprod {
+  padding: 10px;
+  color: #28a745;
+}
+
+.form-control {
+  border: 1px solid green;
+}
+
+.fields {
+  border: 3px solid #28a745;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.label {
+  margin-top: 14px;
+  margin-bottom: -8px;
+  padding: 6px;
+}
+
+#back {
+  margin-top: 15px;
+}
+
+#submit {
+  margin-top: 15px;
+  float: right;
+}
+
+.action {
+  text-align: center;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.u-fields {
+  border: 3px solid #6c757d;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.u-addnewprod {
+  padding: 10px;
+  color: #6c757d;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 11px;
+  top: 14px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #fff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: white;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  color: white;
+}
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  margin-left: 40px;
+}
+
+.menu-item {
+  color: white;
+  padding: 10px;
+}
+
+.menu-item:hover {
+  color: white;
+}
+
+#noResult {
+  color: red;
+}
+
+.themetoggle {
+  margin-left: 65rem;
+  margin-right: 10px;
+}
+
+.text-muted {
+  color: #fff !important;
+}
+
+.root {
+  background: #f0efed;
+}
+
+.card-img-top {
+  height: 170px;
+  margin: 5px auto;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+.login {
+  margin: 120px auto;
+  width: 500px;
+}
+
+#cart {
+  margin-right: 5px;
+}
+
+.card-img-top {
+  padding: 30px;
+  height: 230px;
+}
+
+.order {
+  margin: 25px auto;
+  width: 300px;
+}
+
+#radioBtn {
+  margin-left: -91%;
+  font-size: 20px;
+}
+
+.payIcon {
+  width: 40px;
+  margin-left: 10px;
+}
+
+#backk {
+  float: left;
+}
+
+#finish {
+  margin-left: 77%;
+}
+
+.details {
+  margin-left: 47%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.totPrice {
+  float: left;
+  margin-left: -90px;
+  margin-top: -76px;
+  font-size: 20px;
+}
+
+.delivery {
+  float: left;
+  margin-left: 287px;
+  margin-top: -76px;
+  font-size: 20px;
+}
+
+/* .contactForm {
+  width: 300px;
+  margin: 0 auto;
+} */
+
+.contactTitle {
+  text-align: center;
+  padding: 20px;
+}
+
+#contactSubmit {
+  margin-bottom: 30px;
+  margin-top: 63px;
+  margin-left: -8%;
+}
+.text-center {
+  font-size: 20px;
+}
+
+#textArea {
+  height: 124px;
+  resize: none !important;
+}
